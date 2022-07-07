@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl" >
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project1</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Project2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
@@ -17,10 +16,10 @@
 
 <body>
 
-  <header>
-
-    <div class="container">
-      <!--topnav-area-->
+  <!--header area-->
+  <!--topnav-area-->
+  <div class="topnav-area">
+    <div class="container h-100">
       <div class="row" id="top-nav">
         <div class="col-lg-6 pt-3 ps-2 " id="socialmedia-icons">
           <ul class="d-flex topnav-icons">
@@ -47,117 +46,121 @@
           </ul>
         </div>
       </div>
-      <!--stickynav-area-->
-      <div class="row">
-        <div class="col-lg-3 p-3">
-          <a class="navbar-brand" href="#"><img src="images/logo.xs.webp"></a>
-        </div>
-        <div class="col-lg-6 p-3 sticky-nav-middle">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid justify-content-end">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto">
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link " href="#">Services</a>
-                  </li>
-                  <li class="nav-item dropdown nav-item-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Blog
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Blog</a></li>
-                      <li><a class="dropdown-item" href="#">Single Blog</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown nav-item-hover">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Pages
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Elements</a></li>
-                      <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                      <li><a class="dropdown-item" href="#">Portfolio Elements</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-              </div>
-              <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                MENU
-                <span class="navbar-toggler-icon"></span>
-              </button>
+    </div>
+  </div>
+
+  <!--stickynav-area-->
+  <div class="container sticky-menubar stickynav-bg">
+    <div class="row ">
+      <div class="col-lg-3 p-3 navbar-brand-bg">
+        <a class="navbar-brand" href="#"><img src="images/logo.xs.webp"></a>
+      </div>
+      <div class="col-lg-6 p-3 ">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid justify-content-end">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item nav-item-hover">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item nav-item-hover">
+                  <a class="nav-link " href="#">Services</a>
+                </li>
+                <li class="nav-item dropdown nav-item-hover">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Single Blog</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown nav-item-hover">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Elements</a></li>
+                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                    <li><a class="dropdown-item" href="#">Portfolio Elements</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-hover">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
             </div>
-          </nav>
-        </div>
-        <div class="col-lg-3 pt-3 justify-content-end sticky-nav-right">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-search text-light"></i></a>
-            </li>
-            <li class="nav-item">
-              <button class="btn  px-3 btn-quote">Get a Quote</button>
-            </li>
-          </ul>
-        </div>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              MENU
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="col-lg-3 pt-3 justify-content-end sticky-nav-right">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-search text-light"></i></a>
+          </li>
+          <li class="nav-item">
+            <button class="btn  px-3 btn-quote">Get a Quote</button>
+          </li>
+        </ul>
       </div>
     </div>
-
-  </header>
-
-  <!--slider-area-->
+  </div>
+ <!--slider-area-->
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <div id="carouselExampleControls" class="carousel slide slider-toparea" data-bs-ride="carousel">
+    <div class="row banner-slider-position ">
+      <div class="col-12 no-padding">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/banner2.md.png.webp" class="d-block w-100">
-              <div class="position-relative w-50 slider-text">
-                <h2>Grow Big With<br>Musicol Business</h2>
-                <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
-                  minus.
-                </p>
-                <div id="service-buttons">
-                  <a href="#" class="btn btn-light service-btn-green">Our Services</a>
-                  <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
-                    How It
-                    Work</a>
+              <div class="d-block w-100 d-flex justify-content-center align-items-center carousel-item-bg1">
+                <div class=" w-50 slider-text">
+                  <h2>Grow Big With<br>Musicol Business</h2>
+                  <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
+                    minus.
+                  </p>
+                  <div id="service-buttons">
+                    <a href="#" class="btn btn-light service-btn-green">Our Services</a>
+                    <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
+                      How It Work</a>
+                  </div>
                 </div>
               </div>
             </div>
+
             <div class="carousel-item">
-              <img src="images/banner.md.png.webp" class="d-block w-100">
-              <div class="position-relative w-50 slider-text">
-                <h2>Grow Big With<br>Musicol Business</h2>
-                <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
-                  minus.
-                </p>
-                <div id="service-buttons">
-                  <a href="#" class="btn btn-light service-btn-green">Our Services</a>
-                  <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
-                    How It
-                    Work</a>
+              <div class="d-block w-100 d-flex justify-content-center align-items-center carousel-item-bg1">
+                <div class=" w-50 slider-text">
+                  <h2>Grow Big With<br>Musicol Business</h2>
+                  <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
+                    minus.
+                  </p>
+                  <div id="service-buttons">
+                    <a href="#" class="btn btn-light service-btn-green">Our Services</a>
+                    <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
+                      How It Work</a>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
-          <button class="carousel-control-prev slider-icon-bg" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next slider-icon-bg" type="button" data-bs-target="#carouselExampleControls"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -167,12 +170,72 @@
     </div>
   </div>
 
+  <!--<div class="container-fluid">
+      <div class="row">
+        <div class="col-12 header-banner no-padding">
+          <div class="w-100 h-100 header-banner-overlay"></div>
+        </div>
+      </div>
+    </div>
+
+  <div class="fixed-slider">
+    
+          <div id="carouselExampleControls" class="carousel slide slider-toparea" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner2.md.png.webp" class="d-block w-100">
+                <div class="position-relative w-50 slider-text">
+                  <h2>Grow Big With<br>Musicol Business</h2>
+                  <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
+                    minus.
+                  </p>
+                  <div id="service-buttons">
+                    <a href="#" class="btn btn-light service-btn-green">Our Services</a>
+                    <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
+                      How It
+                      Work</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.md.png.webp" class="d-block w-100">
+                <div class="position-relative w-50 slider-text">
+                  <h2>Grow Big With<br>Musicol Business</h2>
+                  <p class="text">Nam libero tempore, cum soluta nobis est eligendi optio<br>cumque nihil impedit quo
+                    minus.
+                  </p>
+                  <div id="service-buttons">
+                    <a href="#" class="btn btn-light service-btn-green">Our Services</a>
+                    <a href="#" class="btn btn-light service-btn-transparent"><i class="bi bi-caret-right-fill"></i>See
+                      How It
+                      Work</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev slider-icon-bg" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next slider-icon-bg" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+
   <!--service-area-->
 
   <div class="container">
     <div class="row">
       <div class="col-12 service-section-title">
-        <h3 class="text-center">Explore Our Solutions</h3>
+        <h3 class="text-center mb-5">راهکار های ما را ببینید</h3>
       </div>
     </div>
     <div class="row service-section">
@@ -189,7 +252,7 @@
           <div
             class="w-100  d-flex flex-wrap justify-content-center  align-content-center position-relative service-box1-hover">
             <h4 class="text-light">Invoicing</h4>
-            <p class="text-light text">These cases are perfectly simple and easy to distinguish. In a free hour power.
+            <p class="text-light text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
             </p>
           </div>
         </div>
@@ -208,7 +271,7 @@
           <div
             class="w-100  d-flex flex-wrap justify-content-center  align-content-center position-relative service-box2-hover">
             <h4 class="text-light">Business Growth</h4>
-            <p class="text-light text">These cases are perfectly simple and easy to distinguish. In a free hour power.
+            <p class="text-light text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که.
             </p>
           </div>
         </div>
@@ -229,7 +292,7 @@
           <div
             class="w-100  d-flex flex-wrap justify-content-center  align-content-center position-relative service-box3-hover">
             <h4 class="text-light">Problem Solving</h4>
-            <p class="text-light text">These cases are perfectly simple and easy to distinguish. In a free hour power.
+            <p class="text-light text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که.
             </p>
           </div>
         </div>
@@ -244,9 +307,9 @@
       <div class="col-12 col-lg-6">
         <div class="about-image"></div>
       </div>
-      <div class="col-12 col-lg-6 d-flex align-items-lg-center">
+      <div class="col-12 col-lg-6 d-xl-flex align-items-xl-center">
         <div class="text-left px-5 about-info">
-          <h3>The Largest Business Expert</h3>
+          <h3 class="mb-5">The Largest Business Expert</h3>
           <p class="text">These cases are perfectly simple and easy to distinguish. In a free hour, <br>
             when our power of choice is untrammelled and when nothing prevents <br>
             our being able to do what we like best.
@@ -271,7 +334,7 @@
                   d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
               </svg>Voluptatem quia voluptas sit aspernatur.</li>
           </ul>
-          <div class="about-btn">
+          <div class="about-btn mt-5">
             <a href="#" class="btn text-light text">About Us</a>
           </div>
         </div>
@@ -284,7 +347,7 @@
   <div class="counter-area">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 h-100 bg-danger">
+        <div class="col-12 col-md-4">
           <div class="single-counter text-center d-md-flex align-content-md-center flex-md-wrap counter1-margin">
             <h3 class="w-100">
               <span class="counter">520</span>
@@ -293,7 +356,7 @@
             <span class="w-100 counter-text">Total Projects</span>
           </div>
         </div>
-        <div class="col-12 col-md-4  bg-warning">
+        <div class="col-12 col-md-4">
           <div class="single-counter text-center d-md-flex align-content-md-center flex-md-wrap">
             <h3 class="w-100">
               <span class="counter">244</span>
@@ -302,7 +365,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="single-counter text-center d-md-flex align-content-md-center flex-md-wrap">
+          <div class="single-counter text-center d-md-flex align-content-md-center flex-md-wrap ">
             <h3 class="w-100">
               <span class="counter">95</span>
               <span>%</span>
@@ -447,7 +510,7 @@
             <div class="border d-flex flex-wrap justify-content-center align-content-center single-wrap">
               <span class="w-100 text-center mb-2 text-light"><i class="bi bi-sliders"></i></span>
               <h4 class="w-100 mb-2 text-center text-light">Unlimited Control</h4>
-              <p class="text">These cases are perfectly simple and easy to </p>
+              <p class="p-3 text">These cases are perfectly simple and easy to </p>
             </div>
           </div>
 
@@ -455,7 +518,7 @@
             <div class="border d-flex flex-wrap justify-content-center align-content-center single-wrap">
               <span class="w-100 text-center mb-2 text-light"><i class="bi bi-bar-chart"></i></i></span>
               <h4 class="w-100 mb-2 text-center text-light">Unlimited Control</h4>
-              <p class="text">These cases are perfectly simple and easy to </p>
+              <p class="p-3 text">These cases are perfectly simple and easy to </p>
             </div>
           </div>
 
@@ -463,7 +526,7 @@
             <div class="border d-flex flex-wrap justify-content-center align-content-center single-wrap">
               <span class="w-100 text-center mb-2 text-light"><i class="bi bi-columns-gap"></i></span>
               <h4 class="w-100 mb-2 text-center text-light">Unlimited Control</h4>
-              <p class="text">These cases are perfectly simple and easy to </p>
+              <p class="p-3 text">These cases are perfectly simple and easy to </p>
             </div>
           </div>
 
@@ -482,17 +545,13 @@
             <div class="carousel-item active">
               <div class="finance-text">
                 <h3>Gives you the best Financial<br>solution for business</h3>
-                <p class="text">These cases are perfectly simple and easy to distinguish. In a free hour, when our power
-                  of choice is
-                  untrammelled and when nothing prevents our being able to do what we like best.</p>
+                <p class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده.</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="finance-text">
                 <h3>Gives you the best Financial<br>solution for business</h3>
-                <p class="text">These cases are perfectly simple and easy to distinguish. In a free hour, when our power
-                  of choice is
-                  untrammelled and when nothing prevents our being able to do what we like best.</p>
+                <p class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده.</p>
               </div>
             </div>
 
@@ -519,7 +578,7 @@
   <!--testemonial-area-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-lg-6 offset-lg-3 testemonial-area">
+      <div class="col-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 testemonial-area">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
           <div class="carousel-indicators">
@@ -574,7 +633,7 @@
     <div class="row project-info-area">
       <div class="col-12 d-flex justify-content-center">
         <div class="pt-5 align-self-center project-info">
-          <h3 class="text-center mb-3 fs-1">Do you have any projects?</h3>
+          <h3 class="text-center mb-3 fs-1">آیا پروژه ای دارید؟</h3>
           <p class="text-center text">Nam libero tempore, cum soluta nobis est eligendi optio <br>cumque nihil impedit
             quo minus.</p>
           <a class="btn mx-auto text" href="#">Contact Us</a>
